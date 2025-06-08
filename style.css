@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff7e6;
+}
+
+header {
+  background-color: #f8b500;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.produk-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.produk {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produk img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.beli-button {
+  background-color: #f8b500;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.beli-button:hover {
+  background-color: #d99600;
+}
+
+footer {
+  background-color: #f8b500;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 20px;
+}
